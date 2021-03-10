@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../Styles/Task.css">
+	<title>Task</title>
+</head>
+<body>
+	<header><div class="button_back"><a href="../index.html" >Назад</a></div></header>
+	<div class="content">
+		<div class="ask_block">
+			<div class="select_block">
+				<form action="" method="post">
+					<table>
+						<tr>
+							<td>
+								<p>Опір</p>
+							</td>
+							<td>
+								<input type="text" name="input_R" id="Res">
+							</td>
+
+						</tr>
+						<tr>
+							<td>
+								<p>Напруга</p>
+							</td>
+							<td>
+								<input type="text" name="input_V" id="Vol">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Cтрум</p>
+							</td>
+							<td>
+								<input type="text" name="input_I" id="Cur">
+							</td>
+						</tr>
+					</table>
+					<input onchange="click()" value="Расчитать" type="button" id="Butt"></input>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="../Scripts/main.js"></script>
+</body>
+</html>
