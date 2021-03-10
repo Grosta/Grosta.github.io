@@ -1,0 +1,24 @@
+header{
+	background:black;
+	height: 100px;
+	width:auto;
+}
+
+div#button{
+	background: white;
+}
+
+div.button_1{
+	float:left;
+}
+
+div.button_2{
+	float:right;
+}
+
+a#task{
+	color: red;
+}
+a#teor{
+	color: green;
+}
