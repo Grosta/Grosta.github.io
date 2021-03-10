@@ -1,24 +1,65 @@
+body{
+	background: #1E3845;
+}
+
+a{
+	text-decoration:none;
+}
+
 header{
-	background:black;
 	height: 100px;
 	width:auto;
 }
 
 div#button{
-	background: white;
+	background: #456D83;
+	width:auto;
+	height:100px;
+	text-align:center;
 }
 
-div.button_1{
-	float:left;
+div.block_button_1{
+	
+
 }
 
-div.button_2{
-	float:right;
-}
+div.block_button_2{}
+	
 
 a#task{
-	color: red;
+
+color:white;
+font-size:50px;
+
 }
+
 a#teor{
-	color: green;
+
+color:white;
+font-size:50px;
+
+}
+
+div.content{
+	margin-top:150px;
+	height:700px;
+	width:auto;
+	background:#456D83;
+	margin:15px;
+	margin-top:150px;
+}
+
+div.content p{
+	color:white;
+	font-size:40px;
+	text-align:center;
+	padding:20px;
+}
+
+p.sing{
+	color:white;
+	float:right;
+	text-align:middle;
+	vertical-align:middle;
+	font-size:25px;
 }
